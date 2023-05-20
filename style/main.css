@@ -1,0 +1,62 @@
+:root {
+    font-size: 16px;
+    color: white;
+}
+
+main {
+    height: 100vh;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/*Modal*/
+.modal-header{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
+
+.modal-footer {
+    border-color: #FFFFFF !important;
+  }
+
+.modal-title{
+    color: #FFFFFF;
+}
+
+.modal-text-saldo{
+    text-align: center;
+    font-size: 50px;
+}
+
+.bg{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
+
+.hstack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: stretch;
+}
+
+.card{
+    height: 15rem;
+}
+
+main{
+    background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%);
+}
